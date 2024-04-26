@@ -39,14 +39,14 @@
 	     <attribute name="storeTag" value="UIText" />
 	     <attribute name="storeKey" value="masterlist.code.description" />
 	     <attributeStruct name="storeValue">
-	       <attribute name="defaultLocale" value="Code for [{typeLabel}] locations assigned by the [{hierarchyLabel}] hierarchy" />
+	       <attribute name="defaultLocale" value="Code of the [{typeLabel}] to which the [{label}]  is associated to in the [{hierarchyLabel}] hierarchy" />
 	     </attributeStruct>
        </object>    
        <object type="com.runwaysdk.localization.LocalizedValueStore" key="masterlist.label.description">
 	     <attribute name="storeTag" value="UIText" />
 	     <attribute name="storeKey" value="masterlist.label.description" />
 	     <attributeStruct name="storeValue">
-	       <attribute name="defaultLocale" value="Label ({locale}) for [{typeLabel}] locations assigned by the [{hierarchyLabel}] hierarchy" />
+	       <attribute name="defaultLocale" value="Label ({locale}) of the [{typeLabel}] to which the [{label}] is associated to in the [{hierarchyLabel}] hierarchy" />
 	     </attributeStruct>
        </object>    
     </createOrUpdate>    
